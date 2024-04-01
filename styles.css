@@ -1,0 +1,105 @@
+/* Estilos para o corpo do documento */
+body {
+    background-color: #590197; /* Cor de fundo roxa */
+    color: #ff8800; /* Cor do texto laranja */
+    font-family: 'Roboto', sans-serif; /* Nova fonte */
+    margin: 0;
+    padding: 0;
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; /* Adiciona a borda preta */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #3C1053; /* Cor de fundo roxa escura */
+    color: #FFA500; /* Cor do texto laranja */
+    padding: 20px;
+    text-align: center; /* Centralizar o texto */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFA500; /* Cor do texto laranja */
+    text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+    background-color: #48126a; /* Cor de fundo roxa mais escura */
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Estilos para a seção de contato */
+#contact {
+    margin-bottom: 100px; /* Adiciona margem inferior para evitar sobreposição com o rodapé */
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+.contact-icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Adiciona espaçamento acima e abaixo dos ícones */
+}
+
+.contact-icons li {
+    display: inline-block;
+    margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+}
+
+.contact-icons a {
+    color: #ff8800; /* Cor do texto laranja */
+    text-decoration: none;
+    font-size: 28px; /* Aumenta o tamanho dos ícones */
+}
+
+/* Estilos para o botão de download */
+.cv-button {
+    background-color: #FFA500; /* Cor de fundo laranja */
+    color: #fff; /* Cor do texto branco */
+    padding: 10px 20px; /* Adiciona espaço interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona borda arredondada */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    display: inline-block; /* Torna-o um bloco para ocupar apenas o conteúdo necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; /* Adiciona a borda preta */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #3C1053; /* Cor de fundo roxa escura */
+    color: #FFA500; /* Cor do texto laranja */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
